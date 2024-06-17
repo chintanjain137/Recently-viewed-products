@@ -1,0 +1,7 @@
+
+- Add this  line into you main-product.liquid page to render this section.
+- In the “main-product. liquid” file, search for “product-media-model” and add a line break to render the “recently-viewed” snippet.
+- make sure that your file name should match the rendered section.
+
+
+{% render 'recently-viewed' %}
